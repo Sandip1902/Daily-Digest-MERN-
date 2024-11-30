@@ -87,7 +87,7 @@ const createUser = async (req, res) => {
 };
 
 const sendVerficationMail = async ({ _id, email }, res) => {
-  const url = "http://localhost:3000/";
+  const url = "https://daily-digest-mern.onrender.com/";
 
   const otpcode = otpGenerator.generate(6, {
     upperCaseAlphabets: false,
