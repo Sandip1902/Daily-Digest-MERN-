@@ -48,7 +48,7 @@ export default function SignUp(props) {
 
     try {
       const response = await axios.post(
-        process.env.REACT_APP_URL + "/api/auth/createuser",
+        "https://daily-digest-mern.onrender.com/api/auth/createuser",
         body,
         config
       );

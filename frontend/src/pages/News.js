@@ -75,7 +75,7 @@ const News = (props) => {
     try {
       const response = await axios.get(
         //post request to the backend
-        process.env.REACT_APP_URL + "/api/news/fetchallnews",
+        "https://daily-digest-mern.onrender.com/api/news/fetchallnews",
         config,
         body
       );

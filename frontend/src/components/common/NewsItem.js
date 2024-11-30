@@ -57,7 +57,7 @@ const NewsItem = (props) => {
     try {
       const response = await axios.post(
         //post request to the backend
-        process.env.REACT_APP_URL + "/api/news/addnews",
+        "https://daily-digest-mern.onrender.com/api/news/addnews",
         body,
         config
       );
@@ -108,7 +108,7 @@ const NewsItem = (props) => {
     try {
       const response = await axios.delete(
         //post request to the backend
-        process.env.REACT_APP_URL + "/api/news/deletenews/" + id,
+        "https://daily-digest-mern.onrender.com/api/news/deletenews/" + id,
         config,
         body
       );

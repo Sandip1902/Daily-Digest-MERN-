@@ -27,7 +27,7 @@ const Verified = (props) => {
       };
 
       response = await axios.get(
-        process.env.REACT_APP_URL + "/api/auth/verify/" + id + "/" + code,
+        "https://daily-digest-mern.onrender.com/api/auth/verify/" + id + "/" + code,
         body,
         config
       );

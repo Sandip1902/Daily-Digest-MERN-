@@ -37,7 +37,7 @@ export default function Login(props) {
 
     try {
       const response = await axios.post(
-        process.env.REACT_APP_URL + "/api/auth/login",
+        "https://daily-digest-mern.onrender.com/api/auth/login",
         body,
         config
       );
