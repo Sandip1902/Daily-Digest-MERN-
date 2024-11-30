@@ -2,7 +2,7 @@
 
 Welcome to the Daily Digest News App! This application is built using the MERN stack (MongoDB, Express, React, and Node.js) and provides a platform to fetch the latest and live news from various sources using the News API. The app offers several features to enhance your news reading experience.
 
-# Live Demo - https://daily-digest-mern.onrender.com/
+### Live Demo - https://daily-digest-mern.onrender.com/
 
 ## Features
 
